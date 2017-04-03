@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    text-align: center;
+    padding: 2% 20% 2% 20%;
+    background-image: linear-gradient(320deg, rgba(98, 98, 98, 0.7), rgba(0, 0, 0, 1)),  url("https://static.pexels.com/photos/47498/pexels-photo-47498.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.triangleTop {
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 0 110px 250px 110px;
+border-color: transparent transparent #007bff transparent;
+}
+
+h1 {
+    background-color: #7788ff;
+}

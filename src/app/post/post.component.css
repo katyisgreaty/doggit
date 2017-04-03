@@ -1,11 +1,12 @@
-.farts:hover {
-    animation: fart 30s ease infinite;
+.post-div {
+ color: #229118;
 }
-
-@keyframes {
-    0% {}
-    25% {}
-    50% {}
-    75% {}
-    100% {}
+.post-title {
+ color: #9112e1;
+}
+.post-author {
+ color: #3000ee;
+}
+.post-body {
+ color: #681873;
 }

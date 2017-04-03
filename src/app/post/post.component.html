@@ -1,5 +1,5 @@
-<div *ngFor="let post of postArray">
-    <h4>{{post.title}}</h4>
-    <p>Written by: {{post.author}}</p>
-    <div [innerHTML]="post.content"></div>
+<div class="post-div"  *ngFor="let post of postArray">
+    <h4 class="post-title" >{{post.title}}</h4>
+    <p class="post-author" >Written by: {{post.author}}</p>
+    <div  class="post-body" [innerHTML]="post.content"></div>
 </div>

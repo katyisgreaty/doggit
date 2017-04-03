@@ -1,0 +1,5 @@
+.farts {
+    color: red;
+    animation: fart 30s ease infinite;
+    font: #FFF 2em;
+}
