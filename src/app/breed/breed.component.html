@@ -1,0 +1,13 @@
+<div *ngFor="let currentBreed of breedArray" class="">
+    <hr>
+    <hr>
+    <h1>{{currentBreed.name}}</h1>
+    <hr>
+    <h3>A {{currentBreed.size}}, {{currentBreed.temperament}} dog.</h3>
+    <h3>They typically live to be about {{currentBreed.lifespan}} years old.
+        <br>
+        Out of 10, we would say that their health is ~{{currentBreed.health}}!
+    </h3>
+    <button *ngIf="!currentBreed.isFocusBreed" class="btn" (click)="showDetails(currentBreed)">Show Posts</button>
+    <app-post *ngIf="currentBreed.isFocusBreed" (click)="showDetails(currentBreed)" [postArray]="postArray">Posts here</app-post>
+</div>

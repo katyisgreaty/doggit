@@ -1,0 +1,11 @@
+.farts:hover {
+    animation: fart 30s ease infinite;
+}
+
+@keyframes {
+    0% {}
+    25% {}
+    50% {}
+    75% {}
+    100% {}
+}

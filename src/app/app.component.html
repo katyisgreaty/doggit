@@ -1,0 +1,15 @@
+<!-- <div class="nav">
+    <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="">Home</a></li>
+        <li><a routerLink="breed" >Breeds</a></li>
+        <li><a routerLink="post">Posts</a></li>
+    </ul>
+</div> -->
+
+<div class="container">
+  <h1>{{title}}</h1>
+  <router-outlet></router-outlet>
+
+  <app-breed [breedArray]="breedArray" [postArray]="postArray">ayo</app-breed>
+
+</div>

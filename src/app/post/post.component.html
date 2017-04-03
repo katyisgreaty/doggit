@@ -1,0 +1,5 @@
+<div *ngFor="let post of postArray">
+    <h4>{{post.title}}</h4>
+    <p>Written by: {{post.author}}</p>
+    <div [innerHTML]="post.content"></div>
+</div>
